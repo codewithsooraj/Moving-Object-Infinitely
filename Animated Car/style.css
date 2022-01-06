@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.car1{
+    width:150px;
+    margin-bottom: -500px;
+    position: relative;
+    animation: car 9s infinite linear;
+}
+.road{
+    width:100%;
+    height: 600px;
+    margin-top: -20px;
+}
+
+@keyframes car{
+    from{
+        top:0px;
+        left:-30%;
+    }
+    to{
+        top:0px;
+        left:110%;
+
+    }
+
+
+}
+
+.bus{
+    width:140px;
+    margin-bottom: -555px;
+    position: relative;
+    animation: bus 11s infinite linear;
+    
+}
+@keyframes bus{
+    from{
+        top:0px;
+        left:110%;
+    }
+    to{
+        top:0px;
+        left:-50%;
+
+    }
+}
+.truck{
+    width:120px;
+    margin-bottom: -570px;
+    position: relative;
+    animation: truck 12s infinite linear;
+
+}
+@keyframes truck{
+    from{
+        top:0px;
+        left:140%;
+    }
+    to{
+        top:0px;
+        left:-50%;
+
+    }
+}
+.car2{
+    width:110px;
+    margin-bottom: -505px;
+    position: relative;
+    animation: car2 12s infinite linear;
+
+}
+@keyframes car2{
+    from{
+        top:0px;
+        left:-60%;
+    }
+    to{
+        top:0px;
+        left:110%;
+
+    }
+
+
+}
